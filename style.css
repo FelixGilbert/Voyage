@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+}
+.navbar-nav {
+  /* font-family: "Oxygen", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  /* background: transparent; */
+  /* From https://css.glass */
+}
+.nav-item {
+  margin-right: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.navbar-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  color: #f5f5f5;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.container_home {
+  background: url(img/gunung2.png);
+  background-attachment: fixed;
+  height: 120vh;
+  text-align: center;
+  background-size: cover;
+}
+.home_title {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+.bold {
+  font-weight: 500;
+  color: rgb(255, 102, 0);
+  opacity: 100%;
+}
+.container_home > button {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: rgb(255, 102, 0);
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  font-size: 18px;
+  top: 38%;
+  transition: 0.4s;
+}
+.container_home > button:hover {
+  transform: scale(1.1);
+}
+.why {
+  background: rgba(151, 151, 151, 0.329);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: fit-content;
+  position: relative;
+  bottom: 100px;
+  width: 92vw;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.why-container {
+}
+.why_title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-top: 10px;
+}
+.child {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  text-align: center;
+}
+.child > p {
+  position: relative;
+  top: 40px;
+}
+.child > h3 {
+  position: relative;
+}
+.why-span {
+  color: rgb(255, 102, 0);
+  font-weight: 500;
+}
+.child-2 {
+  font-family: "Poppins", sans-serif;
+}
+.child-2 > h3 {
+  color: rgb(255, 102, 0);
+}
+.about {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+.line {
+  width: 80px;
+  border: 1px solid #244662;
+  opacity: 100%;
+  margin: 0 auto;
+}
+.title-about {
+  text-align: center;
+}
+.title-about2 {
+  margin-top: 80px;
+  font-weight: 100;
+  font-family: "Oxygen", sans-serif;
+  width: 100%;
+  text-align: center;
+}
+.title-3 {
+  color: #244662;
+}
+#card {
+  background-image: url(img/card.jpg);
+  border: 1px solid rgb(179, 179, 179);
+  background-size: cover;
+  width: 300px;
+  height: 450px;
+  border-radius: 30px;
+  margin-top: 50px;
+  transition: 0.4s;
+}
+#card2 {
+  background-image: url(img/card2.jpg);
+  border: 1px solid rgb(179, 179, 179);
+  background-size: cover;
+  width: 300px;
+  height: 450px;
+  border-radius: 30px;
+  margin-top: 50px;
+  transition: 0.4s;
+}
+#card3 {
+  background-image: url(img/card3.jpg);
+  border: 1px solid rgb(179, 179, 179);
+  background-size: cover;
+  width: 300px;
+  height: 450px;
+  border-radius: 30px;
+  margin-top: 50px;
+  transition: 0.4s;
+}
+
+#card:hover {
+  transform: scale(1.05);
+}
+
+#card2:hover {
+  transform: scale(1.05);
+}
+
+#card3:hover {
+  transform: scale(1.05);
+}
+#card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card_span {
+  color: rgb(255, 102, 0);
+  font-size: 35px;
+  font-weight: 500;
+}
+.card_title {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: 400px;
+  text-align: center;
+}
+footer {
+  margin-top: 90px;
+}
+
+nav.sticky {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+@media (max-width: 936px) {
+  #card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  #card {
+    height: 300px;
+    width: 200px;
+    margin: 10px 20px;
+    border-radius: 10px;
+  }
+  #card2 {
+    height: 300px;
+    width: 200px;
+    margin: 10px 20px;
+    border-radius: 10px;
+  }
+  #card3 {
+    height: 300px;
+    width: 200px;
+    margin: 10px 20px;
+    border-radius: 10px;
+  }
+  .card_title {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 250px;
+    text-align: center;
+  }
+}
+@media (max-width: 663px) {
+  #card-container {
+    display: inline;
+  }
+  #card {
+    height: 380px;
+    position: relative;
+    top: 30px;
+    width: 280px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  #card2 {
+    position: relative;
+    top: 30px;
+    height: 380px;
+    width: 280px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  #card3 {
+    position: relative;
+    top: 30px;
+    height: 380px;
+    width: 280px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  .p-child {
+    font-size: 12px;
+  }
+}
